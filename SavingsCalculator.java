@@ -1,4 +1,4 @@
-// <Mauricio Salmoran>, AP CSA Unit 1 Challenge, Andrew Jackson High School, <10/20/2021>, <8:43>, v0.0
+// <Mauricio Salmoran>, AP CSA Unit 1 Challenge, Andrew Jackson High School, <10/20/2021>, <8:43>, v0.05
 
 public class SavingsCalculator {
     
@@ -13,7 +13,7 @@ public class SavingsCalculator {
 
         int myInt = myScanner.nextInt();
         double myDouble = myScanner.nextDouble();
-
+        
 
     }
 }
