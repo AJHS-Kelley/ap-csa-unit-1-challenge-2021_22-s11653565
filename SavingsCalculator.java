@@ -1,4 +1,4 @@
-// <Mauricio Salmoran>, AP CSA Unit 1 Challenge, Andrew Jackson High School, <10/20/2021>, <8:43>, v0.056
+// <Mauricio Salmoran>, AP CSA Unit 1 Challenge, Andrew Jackson High School, <10/26/2021>, <9:00>, v0.06
 import java.util.Scanner; 
 
 
@@ -12,8 +12,8 @@ public class SavingsCalculator {
         String accountNumber = myScanner.nextLine();
 
         System.out.println("Your Account number is:" + accountNumber);
-
         System.out.println("Enter your account name: ");
+        System.out.println("Enter the opening balance for Account #" + accountNumber);
 
         int myInt = myScanner.nextInt();
         double myDouble = myScanner.nextDouble();
