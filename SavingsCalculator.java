@@ -13,7 +13,10 @@ public class SavingsCalculator {
 
         System.out.println("Your Account number is:" + accountNumber);
         System.out.println("Enter your account name: ");
-        System.out.println("Enter the opening balance for Account #" + accountNumber);
+        
+        String accountName = myScanner.nextLine();
+        System.out.print(accountName );
+        System.out.println(" Enter the opening balance for Account #" + accountNumber);
 
         int myInt = myScanner.nextInt();
         double myDouble = myScanner.nextDouble();
