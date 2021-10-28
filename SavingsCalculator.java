@@ -1,4 +1,4 @@
-// <Mauricio Salmoran>, AP CSA Unit 1 Challenge, Andrew Jackson High School, <10/26/2021>, <9:00>, v0.06
+// <Mauricio Salmoran>, AP CSA Unit 1 Challenge, Andrew Jackson High School, <10/28/2021>, <9:00>, v0.065
 import java.util.Scanner; 
 
 
@@ -15,10 +15,15 @@ public class SavingsCalculator {
         System.out.println("Enter your account name: ");
         
         String accountName = myScanner.nextLine();
-        System.out.print(accountName );
-        System.out.println(" Enter the opening balance for Account #" + accountNumber);
-
+        
+        System.out.print("Enter the opening balance for Account #" + accountNumber);
+        System.out.println(".  Do not include $ or , please:");
         int myInt = myScanner.nextInt();
+        
+        System.out.print("Enter the current interest rate in percentage format.");
+        System.out.println(".  Do not include the % please:");
+
+
         double myDouble = myScanner.nextDouble();
         
         
